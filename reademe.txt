@@ -1,0 +1,12 @@
+I built a Dairy Product Price Prediction system using Python and machine learning.
+First, I collected the dataset, which has dates and prices of dairy products. Then, I cleaned the data by sorting it in order of dates and handling any missing values.
+
+Next, I created useful features from the data, such as the month, year, and past price values (for example, yesterday’s price, last week’s price, or the average of the past 7 days). These features help the model understand patterns like trends and seasonality.
+
+After that, I trained different machine learning models such as Ridge Regression, Random Forest, and Gradient Boosting. I used time-series cross-validation to check which model performs best, because in time-series data the order of dates is important.
+
+The best model was then selected automatically, and I tested it on the latest part of the data to see how well it predicts prices. I checked accuracy using error metrics like RMSE and MAPE, and I also plotted a graph of actual vs. predicted prices.
+
+Finally, the model was saved so it can be reused later, and I also made it possible to forecast future prices (for example, the next few months). The forecast results are saved to a file and shown in a graph.
+
+In simple words, my project learns patterns from past dairy prices and then helps us predict future prices, which can be useful for farmers, suppliers, and businesses to plan better.
